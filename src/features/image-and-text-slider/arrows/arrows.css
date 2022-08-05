@@ -1,0 +1,36 @@
+.slider .arrows {
+    color: white;
+    display: flex;
+    font-size: 30px;
+    justify-content: space-between;
+    height: 100%;
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    z-index: 1;
+}
+
+.slider .arrow {
+    height: 30px;
+    width: 30px;
+}
+
+.slider .arrow:hover {
+    cursor: pointer;
+}
+
+.slider .left {
+    background-image: url('../attachments/icon/arrow.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 5px;
+    transform: rotate(180deg);
+}
+
+.slider .right {
+    background-image: url('../attachments/icon/arrow.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 5px;
+}
+
